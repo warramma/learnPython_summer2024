@@ -4,6 +4,7 @@ print('You have awakened.')
 choice = ''
 weather = ''
 day = ''
+dinner = ''
 #are you hungry? if so, eat breakfast
 choice = input('Are you hungry? (Y/N): ')
 if(choice.lower() == 'y'):
@@ -31,5 +32,22 @@ if(choice.lower()=='y'):
 else:
     print('Nice! Enjoy your day off :)')
 
+print('.....')
+print('.....')
+print('.....')
+print('...You\'re back from school...')
+print('What would you like for dinner?')
+print('1. Pasta')
+print('2. Nasi dan ayam')
+print('3. make your own sandwich')
+print('4. all the above')
+dinner = input('Enter a number from 1 thru 4 to choose: ')
 
-
+if(int(dinner) == 1):
+    print('Pasta it is')
+elif(int(dinner)==2):
+    print('nice, rice and chicken')
+elif(int(dinner)==3):
+    print('yum a sandwich!')
+else:
+    print('alright! time to eattt')
