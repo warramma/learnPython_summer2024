@@ -23,4 +23,4 @@ abbreviation = input('Enter any three letter abbreviation for a month: ').upper(
 print("Full month: " + months[abbreviation])
 
 #use .get() function
-print(months.get(abbreviation))
+print(months.get(abbreviation, "Not a vlid key"))
