@@ -10,3 +10,7 @@ while i <=10:
 #----------for loops---------
 for letter in 'hello':
     print(letter)
+
+for number in range(12):
+    print(number)
+
