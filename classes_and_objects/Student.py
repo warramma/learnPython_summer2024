@@ -18,5 +18,5 @@ class Student:
             print('Full name: ' + self.first_name + ' ' + self.last_name)
             print('Major: ' + self.major)
             print('Year: ' + self.year)
-            print('GPA: ' self.gpa)
+            print('GPA: ' + self.gpa)
             
