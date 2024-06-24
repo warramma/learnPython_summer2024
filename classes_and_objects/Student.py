@@ -11,3 +11,12 @@ class Student:
         self.major = major
         self.year = year
         self.probation = probation
+    def print(self):
+        if(self.probation == True):
+            print('This student is currently on academic probation. All records are locked and require proper authorization...')
+        else:
+            print('Full name: ' + self.first_name + ' ' + self.last_name)
+            print('Major: ' + self.major)
+            print('Year: ' + self.year)
+            print('GPA: ' self.gpa)
+            
