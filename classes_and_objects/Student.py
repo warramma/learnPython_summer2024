@@ -10,4 +10,4 @@ class Student:
         self.gpa = gpa
         self.major = major
         self.year = year
-        self.probation = False
+        self.probation = probation
