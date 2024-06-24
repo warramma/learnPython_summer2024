@@ -13,10 +13,11 @@ class Student:
         self.probation = probation
     def print(self):
         if(self.probation == True):
-            print('This student is currently on academic probation. All records are locked and require proper authorization...')
+            print('Full name: ' + self.first_name + ' ' + self.last_name)
+            print('This student is currently on academic probation. All records are locked and require proper authorization...\n\n')
         else:
             print('Full name: ' + self.first_name + ' ' + self.last_name)
             print('Major: ' + self.major)
-            print('Year: ' + self.year)
-            print('GPA: ' + self.gpa)
+            print('Year: ' + str(self.year))
+            print('GPA: ' + str(self.gpa) + '\n\n')
             
